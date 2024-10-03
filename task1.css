@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+
+
+}
+
+
+body{
+    overflow-x: hidden;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 100px;
+    position: fixed;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    background-color: white;
+    
+}
+
+nav .logo{
+    font-size: 20px;
+
+}
+nav .logo:hover{
+    background-color: #0000ff38;
+    transition: 0.5s;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+ a{
+    font-size: 18px;
+    color: black;
+    margin-right: 25px;
+    padding: 8px;
+}
+a:hover{
+           background-color: #0000ff38;
+           transition: 0.5s
+}
+h2{
+    margin: 30px;
+}
+.container2{
+    position: relative;
+}
+.text{
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    top: 60%;
+    left: 40%;
+}
+
+.container{
+    position: relative;
+    margin: 50px;
+
+}
+img{
+    width: 23%;
+    height: 23%;
+    margin-right: 14px;
+}
+.pic1{
+    background-color: black;
+    color: white;
+    width: 150px;
+    position: absolute;
+    top: 0%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.pic2{
+    background-color: black;
+    color: white;
+    width: 130px;
+    position: absolute;
+    top: 0%;
+    left: 25%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.pic3{
+    background-color: black;
+    color: white;
+    width: 110px;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.pic4{
+    background-color: black;
+    color: white;
+    width: 120px;
+    position: absolute;
+    top: 0%;
+    left: 74.7%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.pic5{
+    background-color: black;
+    color: white;
+    width: 150px;
+    position: absolute;
+    top: 54%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.pic6{
+    background-color: black;
+    color: white;
+    width: 130px;
+    position: absolute;
+    top: 54%;
+    left:24.9% ;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.pic7{
+    background-color: black;
+    color: white;
+    width: 110px;
+    position: absolute;
+    top: 54%;
+    left: 49.9%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+
+}
+.pic8{
+    background-color: black;
+    color: white;
+    width: 120px;
+    position: absolute;
+    top: 54%;
+    left:74.7% ;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
